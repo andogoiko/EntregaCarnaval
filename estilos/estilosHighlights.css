@@ -1,0 +1,451 @@
+/*ajustes básicos*/
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    color: white;
+}
+
+#espaciomenu {
+    width: 100%;
+    height: 3%;
+}
+
+
+/*ajustes del main*/
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*editando menu de highlights*/
+
+#menuhighlights {
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menuhighlights h5 {
+    color: black;
+}
+
+
+/*editando minutos libres*/
+
+#minutoslibres {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: pink;*/
+}
+
+#minutoslibres h4 {
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+
+#minlibbloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#videosminlib {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vidminlib {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando easy mode*/
+
+#easymode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: yellow;*/
+}
+
+#easymode h4 {
+    padding-left: 2%;
+}
+
+#easymodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#videoseasymode {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.videmo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando hard mode*/
+
+#hardmode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: blue;*/
+}
+
+#hardmode h4 {
+    padding-left: 2%;
+}
+
+#hardmodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#videoshardmode {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vidhamo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando random mode*/
+
+#randommode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: green;*/
+}
+
+#randommode h4 {
+    padding-left: 2%;
+}
+
+#randommodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#videosramo {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vidramo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando temáticas*/
+
+#tematicas {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: purple;*/
+}
+
+#tematicas h4 {
+    padding-left: 2%;
+}
+
+#temabloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#videostema {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vidtema {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*ajustando la pantalla para versión móvil*/
+
+@media(max-width:600px) {
+    #espaciomenu {
+        width: 100%;
+        height: 1.5%;
+    }
+    #menuhighlights {
+        height: 1%;
+    }
+    body {
+        width: 100%;
+        height: 400vh;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    #menuhighlights h5 {
+        color: black;
+        font-size: 80%;
+    }
+    #minutoslibres {
+        height: 18.5%;
+    }
+    #minlibbloque {
+        width: 100%;
+        height: 85%;
+    }
+    #minutoslibres h4 {
+        padding-left: 2%;
+        padding-top: 0.5%;
+        font-size: 100%;
+    }
+    #videosminlib {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .vidminlib {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #easymode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #easymode {
+        height: 18.5%;
+    }
+    #easymodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #videoseasymode {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .videmo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hardmode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #hardmode {
+        height: 18.5%;
+    }
+    #hardmodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #videoshardmode {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .vidhamo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #randommode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #randommode {
+        height: 18.5%;
+    }
+    #randommodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #videosramo {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .vidramo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tematicas h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #tematicas {
+        height: 18.5%;
+    }
+    #tematicasbloque {
+        width: 100%;
+        height: 85%;
+    }
+    #videostema {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .vidtema {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tematicas hr {
+        margin-top: 10%;
+    }
+    footer {
+        height: 3%;
+    }
+}

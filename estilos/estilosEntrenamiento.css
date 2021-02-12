@@ -1,0 +1,451 @@
+/*ajustes básicos*/
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    color: white;
+}
+
+#espaciomenu {
+    width: 100%;
+    height: 3%;
+}
+
+
+/*ajustes del main*/
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*editando menu de highlights*/
+
+#menuentrenamiento {
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menuentrenamiento h5 {
+    color: black;
+}
+
+
+/*editando minutos libres*/
+
+#classicmode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: pink;*/
+}
+
+#classicmode h4 {
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+
+#classicbloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#basesclassic {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baseclassic {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando easy mode*/
+
+#easymode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: yellow;*/
+}
+
+#easymode h4 {
+    padding-left: 2%;
+}
+
+#easymodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#baseseasymode {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baseemo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando hard mode*/
+
+#hardmode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: blue;*/
+}
+
+#hardmode h4 {
+    padding-left: 2%;
+}
+
+#hardmodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#baseshardmode {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basehamo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando random mode*/
+
+#randommode {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: green;*/
+}
+
+#randommode h4 {
+    padding-left: 2%;
+}
+
+#randommodebloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#basesramo {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baseramo {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*editando temáticas*/
+
+#tematicas {
+    width: 100%;
+    height: 16.7%;
+    /*background-color: purple;*/
+}
+
+#tematicas h4 {
+    padding-left: 2%;
+}
+
+#temabloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#basestema {
+    width: 90%;
+    height: 100%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basetema {
+    /*background-color: aquamarine;*/
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*ajustando la pantalla para versión móvil*/
+
+@media(max-width:600px) {
+    #espaciomenu {
+        width: 100%;
+        height: 1.5%;
+    }
+    #menuentrenamiento {
+        height: 1%;
+    }
+    body {
+        width: 100%;
+        height: 400vh;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    #menuentrenamiento h5 {
+        color: black;
+        font-size: 80%;
+    }
+    #classicmode {
+        height: 18.5%;
+    }
+    #classicbloque {
+        width: 100%;
+        height: 85%;
+    }
+    #classicmode h4 {
+        padding-left: 2%;
+        padding-top: 0.5%;
+        font-size: 100%;
+    }
+    #basesclassic {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .baseclassic {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #easymode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #easymode {
+        height: 18.5%;
+    }
+    #easymodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #baseseasymode {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .baseemo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hardmode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #hardmode {
+        height: 18.5%;
+    }
+    #hardmodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #baseshardmode {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .basehamo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #randommode h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #randommode {
+        height: 18.5%;
+    }
+    #randommodebloque {
+        width: 100%;
+        height: 85%;
+    }
+    #basesramo {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .baseramo {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tematicas h4 {
+        padding-left: 2%;
+        font-size: 100%;
+    }
+    #tematicas {
+        height: 18.5%;
+    }
+    #tematicasbloque {
+        width: 100%;
+        height: 85%;
+    }
+    #basestema {
+        width: 90%;
+        height: 100%;
+        /*background-color: blanchedalmond;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8%;
+    }
+    .basetema {
+        /*background-color: aquamarine;*/
+        width: 60%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tematicas hr {
+        margin-top: 10%;
+    }
+    footer {
+        height: 3%;
+    }
+}
